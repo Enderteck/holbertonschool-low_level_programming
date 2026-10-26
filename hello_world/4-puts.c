@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - This is a description
+ * This function prints to terminal:
+ * "Programming is like building a multilingual puzzle
+ *
+ * Return: 0 if the program runs correctly
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
