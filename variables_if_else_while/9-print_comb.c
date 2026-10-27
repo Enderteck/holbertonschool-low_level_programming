@@ -11,13 +11,16 @@ int main(void)
 	int chiffre;
 
 	chiffre = '0';
-	while (chiffre <= '8')
+	while (chiffre <= '9')
 	{
-		putchar(chiffre++);
-		putchar(',');
-		putchar(' ');
+		putchar(chiffre);
+		if (chiffre != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		chiffre++;
 	}
-	putchar(chiffre);
 	putchar('\n');
 	return (0);
 }
