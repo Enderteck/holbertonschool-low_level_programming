@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - uses the puchar funtion in main.h to print
+ * print_alphabet - uses the puchar funtion in main.h to print
+ * the alphabet
  *
- * Return: 0 when program is done
+ * Return: nothing
  */
 void print_alphabet(void)
 {
@@ -13,5 +14,4 @@ void print_alphabet(void)
 	while (ltr <= 'z')
 		_putchar(ltr++);
 	_putchar('\n');
-	return;
 }
