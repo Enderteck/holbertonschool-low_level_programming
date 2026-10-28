@@ -24,6 +24,7 @@ int print_last_digit(int n)
 	while (n > 9 || n < -9)
 		n %= 10;
 	if (n < 0)
-		return (-n);
+		n = -n;
+	_putchar('0' + n);
 	return (n);
 }
