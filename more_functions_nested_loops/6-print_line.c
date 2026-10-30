@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * more_numbers - prints digits 0 to 14, 10 times
- * @n: 
+ * print_line - prints _ n times
+ * @n: number of _
  *
  * Return: nothing
  */
