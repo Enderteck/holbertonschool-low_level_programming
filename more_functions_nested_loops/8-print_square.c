@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a square dependign on size
- * @size: square height & width
+ * @size: triangle height & width
  *
  * Return: void
  */
