@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints most of the digits
+ * more_numbers - prints digits 0 to 14, 10 times
  *
  * Return: nothing
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int nbr;
 	int i;
