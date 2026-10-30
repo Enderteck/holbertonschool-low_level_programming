@@ -11,6 +11,10 @@ void print_most_numbers(void)
 
 	nbr = '0';
 	while (nbr <= '9')
-		_putchar(nbr++);
+	{
+		if (nbr != 2 && nbr != 4)
+			_putchar(nbr);
+		nbr++;
+	}
 	_putchar('\n');
 }
